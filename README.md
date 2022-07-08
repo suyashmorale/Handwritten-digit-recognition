@@ -6,6 +6,7 @@
 
 
 + app.py :- It is a python file , this file contain code with opencv library.
-+ handwritten_digit_recognization.ipynb :- It is a jupyter notebook file, this contain machine learning model code for image processing and image detection with
++ Digit_recognization.ipynb :- It is a jupyter notebook file, this contain machine learning model code for image processing and image detection with
                                            cnn model.
 + dataset :- This is an zip folder containing test and training data used for building deep learning model.
++ model.h5 :- This is an saved deep learning model created through machine learning code.
