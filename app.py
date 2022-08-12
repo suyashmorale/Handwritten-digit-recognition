@@ -81,7 +81,7 @@ while(True):
                 textsurface = FONT.render(label, True, RED, WHITE)
                 textrecobj = textsurface.get_rect()
                 textrecobj.left, textrecobj.bottom = rect_min_x, rect_max_y
-               
+                pygame.draw.rect(DISPLAYSURF,RED,pygame.Rect(rect_min_x,rect_min_y,rect_max_x-rect_min_x,rect_max_y-rect_min_y),2,1)
                 DISPLAYSURF.blit(textsurface,textrecobj)
 
             if event.type == KEYDOWN:
